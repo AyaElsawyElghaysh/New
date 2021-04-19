@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="home">الرئسية</string>
+    <string name="library">المكتبات</string>
+    <string name="attribute">الصفات</string>
+    <string name="Character">الصحابة</string>
+    <string name="Audio">الصوتيات</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
