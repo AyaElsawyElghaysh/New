@@ -1,4 +1,4 @@
-package com.example.myproject;
+package com.example.myproject.ui;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -8,7 +8,13 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
+import com.example.myproject.R;
+import com.example.myproject.attribute.AttributeFragment;
+import com.example.myproject.audio.AudioFragment;
+import com.example.myproject.character.CharacterFragment;
 import com.example.myproject.databinding.ActivityMainBinding;
+import com.example.myproject.home.HomeFragment;
+import com.example.myproject.library.LibraryFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {

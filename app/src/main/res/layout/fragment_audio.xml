@@ -4,15 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AudioFragment">
+    tools:context=".audio.AudioFragment">
 
 
-    <TextView
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_audio_series"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/circle_indicator_audio_series"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Audio fragment"
-        android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        android:layout_height="20dp"
+        android:layout_margin="6dp"
+        android:layout_below="@+id/view_pager_audio_series"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white" />
 
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_audio_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/circle_indicator_audio_series"
+        android:layout_margin="6dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/recycler_view_audio_id" />
 
 </RelativeLayout>
