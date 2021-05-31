@@ -24,8 +24,8 @@ public class SlideShowAdapterAudio extends PagerAdapter {
     RecyclerAudioAdapter audioAdapter;
 
     public int[] audio_series = {
-            R.drawable.im,
-            R.drawable.im2
+            R.drawable.back,
+            R.drawable.splash
     };
 
 
@@ -66,12 +66,12 @@ public class SlideShowAdapterAudio extends PagerAdapter {
 
         // arrays for recycle
         ArrayList<AudioData> audios1 = new ArrayList<>();
-        audios1.add(new AudioData(R.drawable.im, "مقطع صوتى 1", "بسيط", 20 + "s"));
-        audios1.add(new AudioData(R.drawable.im2, "مقطع صوتى 2", "بسيط", 50 + "s"));
+        audios1.add(new AudioData(R.drawable.back, "مقطع صوتى 1", "بسيط", 20 + "s"));
+        audios1.add(new AudioData(R.drawable.back, "مقطع صوتى 2", "بسيط", 50 + "s"));
 
         ArrayList<AudioData> audios2 = new ArrayList<>();
-        audios2.add(new AudioData(R.drawable.im, "مقطع صوتى 3", "بسيط", 45 + "s"));
-        audios2.add(new AudioData(R.drawable.im2, "مقطع صوتى 6", "بسيط", 20 + "s"));
+        audios2.add(new AudioData(R.drawable.splash, "مقطع صوتى 3", "بسيط", 45 + "s"));
+        audios2.add(new AudioData(R.drawable.splash, "مقطع صوتى 6", "بسيط", 20 + "s"));
 
         audio_img.setOnClickListener(new View.OnClickListener() {
             @Override

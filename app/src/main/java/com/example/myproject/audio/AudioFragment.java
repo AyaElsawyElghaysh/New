@@ -1,5 +1,6 @@
 package com.example.myproject.audio;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -87,11 +88,11 @@ public class AudioFragment extends Fragment {
 
         // arrays for recycle
         ArrayList<AudioData> audios = new ArrayList<>();
-        audios.add(new AudioData(R.drawable.im, "مقطع صوتى 3", "بسيط", 45 + "s"));
+        audios.add(new AudioData(R.drawable.logo, "مقطع صوتى 3", "بسيط", 45 + "s"));
+
 
         // enable recycle
         audioAdapter.setData(audios);
-        audioAdapter.notifyDataSetChanged();
         binding.recyclerViewAudioId.setAdapter(audioAdapter);
         RecyclerView.LayoutManager lm = new LinearLayoutManager(getContext());
         binding.recyclerViewAudioId.setHasFixedSize(true);

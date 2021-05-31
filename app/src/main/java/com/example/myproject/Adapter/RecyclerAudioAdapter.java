@@ -63,7 +63,7 @@ public class RecyclerAudioAdapter extends RecyclerView.Adapter<RecyclerAudioAdap
             super(itemView);
 
             audioName = itemView.findViewById(R.id.audio_name);
-            audioDes = itemView.findViewById(R.id.audio_desc);
+            audioDes = itemView.findViewById(R.id.audio_char);
             audioPeriod = itemView.findViewById(R.id.audio_period);
             audioImage = itemView.findViewById(R.id.audo_image);
         }

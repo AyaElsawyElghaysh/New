@@ -16,8 +16,8 @@
             android:id="@+id/image_slide_audio_id"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/im" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/back" />
 
     </androidx.cardview.widget.CardView>
 
